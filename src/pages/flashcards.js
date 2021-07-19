@@ -1,16 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../components/header";
 import Logo from "../components/logo";
 import Footer from "../components/footer";
+import Sidebar from "../components/sidebar";
+import Sidebutton from "../components/sidebutton";
+import Card from "../components/card";
 
-export class Flashcards extends React.Component {
-  render() {
-    return (
-      <>
-        <Logo />
-        <Header page="1" />
-        <Footer />
-      </>
-    );
+function Flashcards() {
+  // these are hooks
+  const [toggle, setToggle] = useState(false);
+
+  function toggleMenu() {
+    setToggle(!toggle);
   }
+
+  return (
+    <>
+      <Logo />
+      <Header page="1" />
+      <div>
+        <Sidebutton onToggleMenu={toggleMenu} />
+      </div>
+
+      <div className="ui attached pushable" style={{ height: "100vh" }}>
+        <Sidebar toggleMenu={toggle} />
+        <div className="pusher bottom">
+          <Card />
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
 }
+
+export default Flashcards;
