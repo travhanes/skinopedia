@@ -2,7 +2,7 @@ import "./App.css";
 import { About } from "./pages/about";
 import { Contribute } from "./pages/contribute";
 import { Explore } from "./pages/explore";
-import { Flashcards } from "./pages/flashcards";
+import Flashcards from "./pages/flashcards";
 import { Homepage } from "./pages/homepage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 

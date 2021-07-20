@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navbar from "../components/navbar";
 import Header from "../components/header";
-import Logo from "../components/logo";
 import Footer from "../components/footer";
 import Searchbar from "../components/searchbar";
 import { DefaultButton, Stack } from "@fluentui/react";
@@ -11,19 +11,19 @@ export class Homepage extends React.Component {
   render() {
     return (
       <>
-        <Logo />
-        <Header page="0" />
+        <Header />
+        <Navbar page="0" />
 
         <div
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            height: "746px",
+            height: "773px",
             textAlign: "center",
           }}
         >
-          <Stack gap="30px">
+          <Stack tokens={{ childrenGap: 40 }}>
             <Searchbar />
             <Link to="./explore">
               <DefaultButton text="Search" />
