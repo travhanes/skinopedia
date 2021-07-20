@@ -3,25 +3,17 @@ import React from "react";
 function Card() {
   return (
     <>
-      <div class="ui cards">
-        <div class="card">
-          <div class="content">
-            <img
-              class="right floated mini ui image"
-              src="/images/avatar/large/elliot.jpg"
-            />
-            <div class="header">Elliot Fu</div>
-            <div class="meta">Friends of Veronika</div>
-            <div class="description">
-              Elliot requested permission to view your contact details
-            </div>
-          </div>
-          <div class="extra content">
-            <div class="ui two buttons">
-              <div class="ui basic green button">Approve</div>
-              <div class="ui basic red button">Decline</div>
-            </div>
-          </div>
+      <div
+        className="ui cards"
+        style={{
+          position: "absolute",
+          bottom: "50%",
+          left: "50%",
+          transform: "translate(-50%,10%)",
+        }}
+      >
+        <div className="card" style={{ height: "400px", width: "600px" }}>
+          <div className="content"></div>
         </div>
       </div>
     </>

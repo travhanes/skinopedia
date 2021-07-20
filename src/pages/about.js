@@ -9,6 +9,7 @@ export class About extends React.Component {
       <>
         <Logo />
         <Header page="4" />
+
         <Footer />
       </>
     );
