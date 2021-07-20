@@ -19,11 +19,11 @@ export class Homepage extends React.Component {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            height: "746px",
+            height: "773px",
             textAlign: "center",
           }}
         >
-          <Stack gap="30px">
+          <Stack tokens={{ childrenGap: 40 }}>
             <Searchbar />
             <Link to="./explore">
               <DefaultButton text="Search" />

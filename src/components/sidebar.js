@@ -19,10 +19,12 @@ function Sidebar(props) {
     <div>
       <div className={classes}>
         <ul>
-          <li className="item link">Item 1</li>
-          <li className="item link">Item 2</li>
-          <li className="item link">Item 3</li>
-          <li className="item link">Item 4</li>
+          <li className="item link">A particular skin condition deck</li>
+          <li className="item link">
+            A different deck with different conditions
+          </li>
+          <li className="item link">Here's a new deck of skin conditions</li>
+          <li className="item link">Skin conditions deck alpha beta etc.</li>
         </ul>
       </div>
       <div className="pusher"></div>

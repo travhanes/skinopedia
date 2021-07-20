@@ -4,7 +4,7 @@ import Logo from "../components/logo";
 import Footer from "../components/footer";
 import Sidebar from "../components/sidebar";
 import Sidebutton from "../components/sidebutton";
-import Card from "../components/card";
+import Cardslider from "../components/cardslider";
 
 function Flashcards() {
   // these are hooks
@@ -25,7 +25,7 @@ function Flashcards() {
       <div className="ui attached pushable" style={{ height: "100vh" }}>
         <Sidebar toggleMenu={toggle} />
         <div className="pusher bottom">
-          <Card />
+          <Cardslider />
         </div>
       </div>
       <Footer />

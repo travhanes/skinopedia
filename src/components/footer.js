@@ -6,7 +6,6 @@ function Footer() {
       style={{
         textAlign: "center",
         paddingTop: "20px",
-        background: "brown",
         height: "60px",
         width: "100%",
         position: "fixed",
