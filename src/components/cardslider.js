@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function CardSlider() {
-  let [toggle, setToggle] = useState(false);
+  let [toggle, setToggle] = useState(true);
 
   function toggleCard() {
     setToggle(!toggle);

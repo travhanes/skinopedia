@@ -1,14 +1,92 @@
 [
   {
-    "name": "toe fungus",
-    "description": "gross stuff growing on big toe",
-    "recognized": "green with puss",
-    "treatment": "anti-fungus cream"
+    "name": "Kawasaki Disease",
+    "description": "is an acute febrile illness that causes swelling in the walls of arteries in the body. It is The most common cause of heart disease in children (often younger than 5 years) in developed countries.",
+    "recognised": "Signs include high fever, peeling skin, rash on the main portion of the body, swollen, red skin on the palms of hands and soles of feet.",
+    "treatment": "The two main means of treatment include aspirin and intravenous immunoglobulin. It is usually treatable if discovered within 10 days, and children normally can recover from this disease."
   },
   {
-    "name": "toe fungus",
-    "description": "gross stuff growing on big toe",
-    "recognized": "green with puss",
-    "treatment": "anti-fungus cream"
+    "name": "Keratosis Pilaris",
+    "description": " harmless skin condition that causes dry rough patches and tiny bumps on the upper arms, cheeks, thighs, or buttocks",
+    "recognised": "Painless tiny bumps, dry, rough skin in bumpy areas",
+    "treatment": "creams that remove dead skin cells (which often contain alpha hydroxy acid, lactic acid, salicylic acid or urea help loosen and remove dead skin cells"
+  },
+  {
+    "name": "Gangrene",
+    "description": "death of body tissue due to lack of blood flow  or  a serious bacterial infection. Which commonly  affects the arms and legs.",
+    "recognised": "a wound that is red, sore",
+    "treatment": "Antibiotics. These medicines can be used to kill bacteria in the affected area"
+  },
+  {
+    "name": "Jaundice",
+    "description": "Jaundice refers to yellow discolouration of the skin and soft tissues due to hyperbilirubinaemiacausingbilepigmentdeposition. Jaundicemaybearesultofvariouspre-, intra-, and post-hepatic causes",
+    "recognised": " In dark skin, jaundice might only produce subtle yellow discolouration",
+    "treatment": "Drink at least eight glasses of fluids per day"
+  },
+  {
+    "name": "Stomatitis",
+    "description": "Inflammation of the mucous membranes of the mouth",
+    "recognised": "Stomatitis commonly presents as cracking of the corners of the lips (angular cheilitis)",
+    "treatment": "Avoiding hot beverages and foods as well as salty, spicy, and citrus-based foods"
+  },
+  {
+    "name": "Tinea Capitis",
+    "description": "A ringworm (fungal) infection affecting the scalp",
+    "recognised": "The skin will appear dry and flaky. It is most common in children aged 3 to 9",
+    "treatment": "Soap and water. When you have ringworm, you need to keep the area as clean as possible."
+  },
+  {
+    "name": "Warts (HPV)",
+    "description": "Warts are benign soft tissue swellings which are caused by the human papilloma virus",
+    "recognised": "occur on the palmar surface of the hands and the plantar surface (sole) of the feet. There are also filiforms. periungual, flat and cauliflower types",
+    "treatment": "topical medications and removal through medical procedure "
+  },
+  {
+    "name": "Clubbing",
+    "description": "bulbous swelling of the soft tissue of the terminal phalanx of a digit",
+    "recognised": "softening of the nailbed followed by an increase in Lovibond's angle (angle between the nailbed and nail plate)",
+    "treatment": "reduce the risk of lung cancer by avoiding tobacco smoke and limiting your exposure to toxins in the workplace"
+  },
+  {
+    "name": "Melanonychia",
+    "description": "refers to a pigmented line that runs vertically along the nail",
+    "recognised": "high fever, peeling skin, rash on the main portion of the body, swollen, red skin on the palms of hands and soles of feet",
+    "treatment": "taking antibiotic or antifungal medications"
+  },
+  {
+    "name": "Conjunctival Pallor",
+    "description": "refers to the pale appearance of skin due to reduced oxyhaemoglobin levels",
+    "recognised": "pulling down (or asking the patient to pull down) the lower eyelid",
+    "treatment": "vitamin B-12, or folate supplements"
+  },
+  {
+    "name": "Central Cyanosis",
+    "description": "a blue or grey discolouration of the skin and mucous membranes due to high levels of deoxygenated haemoglobin. This is caused by hypoxaemia (low arterial oxygen)",
+    "recognised": "The ability to detect cyanosis on visual inspection depends on dermal thickness, cutaneous pigmentation, and the state of the cutaneous capillaries",
+    "treatment": "surger"
+  },
+  {
+    "name": "Erythema",
+    "description": "refers to the red appearance of skin associated with inflammation and infection",
+    "recognised": "The patient's regular skin tone is best appreciated in the area directly in between the two pustules (mid-shin). Detection of erythema in the second picture is aided by the swelling which pulls the skin tight and gives it a smooth and shiny appearance with a burgundy undertone.",
+    "treatment": "Avoiding harsh or perfumed soaps, detergents, and lotions, as well as any known allergy triggers, may help reduce redness"
+  },
+  {
+    "name": "Swelling (Oedema)",
+    "description": " refers to swelling due to excess fluid. This occurs in a number of conditions including heart failure, allergy and trauma",
+    "recognised": "body tissues appear larger than normal",
+    "treatment": "wash, dry and moisturise your hands to avoid infections"
+  },
+  {
+    "name": "Nail Pitting",
+    "description": "Nail pitting refers to pin-size depressions on the surface of nails",
+    "recognised": " psoriasis which typically causes silvery skin plaques on the extensor surfaces of joints. The nail pitting itself is often irregular in pattern and may affect one, some or all of the fingernails or even toenails",
+    "treatment": "taking vitamin D3 supplements."
+  },
+  {
+    "name": "Heat Rash",
+    "description": "sweat rash, and prickly heat are all common names for miliaria, a skin condition that occurs when the skin’s sweat ducts become blocked",
+    "recognised": "This rash often occurs due to heat and humidity, but intense exercise, non breathable clothing, and medical dressings can also cause it",
+    "treatment": "Cooling down, wearing more breathable clothing, and changing or, if recommended, removing dressings can help"
   }
 ]
