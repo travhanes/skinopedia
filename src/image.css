@@ -1,0 +1,6 @@
+.rounder{
+    border-radius: 50% ;
+    padding: 1px;
+    border: 8px solid transparent;
+    background: linear-gradient(90deg);
+}
