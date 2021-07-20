@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import Navbar from "../components/navbar";
 import Header from "../components/header";
-import Logo from "../components/logo";
 import Footer from "../components/footer";
 import Sidebar from "../components/sidebar";
 import Sidebutton from "../components/sidebutton";
@@ -16,8 +16,8 @@ function Flashcards() {
 
   return (
     <>
-      <Logo />
-      <Header page="1" />
+      <Header />
+      <Navbar page="1" />
       <div>
         <Sidebutton onToggleMenu={toggleMenu} />
       </div>

@@ -1,14 +1,14 @@
 import React from "react";
+import Navbar from "../components/navbar";
 import Header from "../components/header";
-import Logo from "../components/logo";
 import Footer from "../components/footer";
 
 export class Contribute extends React.Component {
   render() {
     return (
       <>
-        <Logo />
-        <Header page="3" />
+        <Header />
+        <Navbar page="3" />
 
         <div style={{ height: "746px", padding: "40px 400px" }}>
           <h2>Want to give us feedback or help contribute to our cause?</h2>

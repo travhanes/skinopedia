@@ -1,6 +1,6 @@
 import React from "react";
+import Navbar from "../components/navbar";
 import Header from "../components/header";
-import Logo from "../components/logo";
 import Footer from "../components/footer";
 import Trav from "../Trav.jpg";
 // import { DefaultButton, Stack } from "@fluentui/react";
@@ -9,8 +9,8 @@ export class About extends React.Component {
   render() {
     return (
       <>
-        <Logo />
-        <Header page="4" />
+        <Header />
+        <Navbar page="4" />
 
         <Footer />
 
