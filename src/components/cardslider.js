@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import kawasakiDiseaseBlack from "../images/kawasaki_disease_black.png";
+import kawasakiDiseaseWhite from "../images/kawasaki_disease_white.png";
 
 function CardSlider() {
   let [toggle, setToggle] = useState(true);
@@ -13,9 +15,18 @@ function CardSlider() {
 
   let cardSide;
   if (toggle) {
-    cardSide = <h1>picture</h1>;
+    cardSide = (
+      <div
+        style={{
+          height: "70%",
+          width: "70%",
+          backgroundImage: `url(${kawasakiDiseaseBlack})`,
+          backgroundRepeat: "no-repeat",
+        }}
+      ></div>
+    );
   } else {
-    cardSide = <h1>description</h1>;
+    cardSide = <h1>Kawasaki Disease</h1>;
   }
 
   return (
@@ -61,7 +72,6 @@ function CardSlider() {
               }}
               onClick={toggleCard}
             >
-              <h1>Card 1</h1>
               {cardSide}
             </div>
           </div>
@@ -77,7 +87,6 @@ function CardSlider() {
               }}
               onClick={toggleCard}
             >
-              <h1>Card 2</h1>
               {cardSide}
             </div>
           </div>
@@ -93,7 +102,6 @@ function CardSlider() {
               }}
               onClick={toggleCard}
             >
-              <h1>Card 3</h1>
               {cardSide}
             </div>
           </div>
@@ -109,7 +117,6 @@ function CardSlider() {
               }}
               onClick={toggleCard}
             >
-              <h1>Card 4</h1>
               {cardSide}
             </div>
           </div>
@@ -125,7 +132,6 @@ function CardSlider() {
               }}
               onClick={toggleCard}
             >
-              <h1>Card 5</h1>
               {cardSide}
             </div>
           </div>
