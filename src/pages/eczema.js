@@ -1,16 +1,14 @@
 import React from "react";
 import Header from "../components/header";
-import Logo from "../components/logo";
 import Footer from "../components/footer";
 import "../explore.css";
-import Cardslider from "../components/cardslider";
+
 
 
 export class Eczema extends React.Component {
     render() {
         return (
         <>
-        <Logo />
         <Header page="0" /> 
         
         {/*all of this is just a placeholder */}
