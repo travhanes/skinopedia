@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import JSONDATA from "./skindexdict.json";
+
 
 
 function FilterSearch() {
@@ -21,8 +23,11 @@ const [searchTerm, setSearchTerm] = useState("");
             }).map((val,_key) => {
               return (
               <div className="user" key={_key}> 
-                <p>{val.Disease}</p>
+                {/* <h1>{val.Disease}</h1> */}
+                <Link to={"/eczema"}>{val.Disease}</Link>
                 </div>
+            
+              
               );
             })} 
         </div>
