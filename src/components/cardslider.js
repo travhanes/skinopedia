@@ -1,16 +1,57 @@
 import React, { useState } from "react";
 import kawasakiDiseaseBlack from "../images/kawasaki_disease_black.png";
 import kawasakiDiseaseWhite from "../images/kawasaki_disease_white.png";
+import jaundiceBlack from "../images/jaundice_black.png";
+import jaundiceWhite from "../images/jaundice_white.png";
+import stomatitisBlack from "../images/stomatitis_black.png";
+
+let cards = [
+  {
+    picture: kawasakiDiseaseBlack,
+    description: "Kawasaki Disease",
+  },
+  {
+    picture: kawasakiDiseaseWhite,
+    description: "Kawasaki Disease",
+  },
+  {
+    picture: jaundiceBlack,
+    description: "Jaundice",
+  },
+  {
+    picture: jaundiceWhite,
+    description: "Jaundice",
+  },
+  {
+    picture: stomatitisBlack,
+    description: "Stomatitis",
+  },
+];
 
 function CardSlider() {
   let [toggle, setToggle] = useState(true);
+  let [cardNumber, setCardNumber] = useState(0);
 
   function toggleCard() {
     setToggle(!toggle);
   }
 
-  function toggleCardTrue() {
+  function addCardNumber() {
     setToggle(true);
+    if (cardNumber > 3) {
+      setCardNumber(0);
+    } else {
+      setCardNumber(++cardNumber);
+    }
+  }
+
+  function subtractCardNumber() {
+    setToggle(true);
+    if (cardNumber < 1) {
+      setCardNumber(4);
+    } else {
+      setCardNumber(--cardNumber);
+    }
   }
 
   let cardSide;
@@ -20,13 +61,13 @@ function CardSlider() {
         style={{
           height: "70%",
           width: "70%",
-          backgroundImage: `url(${kawasakiDiseaseBlack})`,
-          backgroundRepeat: "no-repeat",
         }}
-      ></div>
+      >
+        <img src={cards[cardNumber].picture} alt="card" height="100%" />
+      </div>
     );
   } else {
-    cardSide = <h1>Kawasaki Disease</h1>;
+    cardSide = <h1>{cards[cardNumber].description}</h1>;
   }
 
   return (
@@ -141,7 +182,7 @@ function CardSlider() {
           href="#carouselExampleIndicators"
           role="button"
           data-slide="prev"
-          onClick={toggleCardTrue}
+          onClick={subtractCardNumber}
           style={{
             left: "-100px",
             border: "black 1px solid",
@@ -156,7 +197,7 @@ function CardSlider() {
           href="#carouselExampleIndicators"
           role="button"
           data-slide="next"
-          onClick={toggleCardTrue}
+          onClick={addCardNumber}
           style={{
             right: "-100px",
             border: "black 1px solid",

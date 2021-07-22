@@ -3,7 +3,9 @@
     "name": "Kawasaki Disease",
     "description": "An acute febrile illness that causes swelling in the walls of arteries in the body. It is The most common cause of heart disease in children (often younger than 5 years) in developed countries.",
     "recognised": "Signs include high fever, peeling skin, rash on the main portion of the body, swollen, red skin on the palms of hands and soles of feet.",
-    "treatment": "The two main means of treatment include aspirin and intravenous immunoglobulin. It is usually treatable if discovered within 10 days, and children normally can recover from this disease."
+    "treatment": "The two main means of treatment include aspirin and intravenous immunoglobulin. It is usually treatable if discovered within 10 days, and children normally can recover from this disease.",
+    "picture_1": "kawasakiDiseaseBlack",
+    "picture_2": "kawasakiDiseaseWhite"
   },
   {
     "name": "Keratosis Pilaris",
@@ -63,7 +65,7 @@
     "name": "Central Cyanosis",
     "description": "a blue or grey discolouration of the skin and mucous membranes due to high levels of deoxygenated haemoglobin. This is caused by hypoxaemia (low arterial oxygen)",
     "recognised": "The ability to detect cyanosis on visual inspection depends on dermal thickness, cutaneous pigmentation, and the state of the cutaneous capillaries",
-    "treatment": "surger"
+    "treatment": "surgery"
   },
   {
     "name": "Erythema",
