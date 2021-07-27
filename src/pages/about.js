@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../components/navbar";
-import Header from "../components/header";
 import Footer from "../components/footer";
 import Trav from "../Trav.jpg";
 import Dani from "../Daniela.jpg";
@@ -14,7 +13,6 @@ export class About extends React.Component {
   render() {
     return (
       <>
-        <Header />
         <Navbar page="4" />
 
         <Footer />
@@ -41,17 +39,18 @@ export class About extends React.Component {
 
             <h2>The team</h2>
             <Stack horizontal tokens={{ childrenGap: "40px" }}>
-              <div className="column">
+              <div>
                 <img
+                  src={Trav}
+                  alt=""
                   style={{
                     height: "205px",
                     width: "210px",
                     borderRadius: "50%",
                   }}
-                  src={Trav}
                 />
               </div>
-              <div className="column">
+              <div>
                 <img
                   style={{
                     height: "205px",
@@ -59,9 +58,10 @@ export class About extends React.Component {
                     borderRadius: "50%",
                   }}
                   src={Dani}
+                  alt=""
                 />
               </div>
-              <div className="column">
+              <div>
                 <img
                   style={{
                     height: "205px",
@@ -69,9 +69,10 @@ export class About extends React.Component {
                     borderRadius: "50%",
                   }}
                   src={isim}
+                  alt=""
                 />
               </div>
-              <div className="column">
+              <div>
                 <img
                   style={{
                     height: "205px",
@@ -79,9 +80,10 @@ export class About extends React.Component {
                     borderRadius: "50%",
                   }}
                   src={john}
+                  alt=""
                 />
               </div>
-              <div className="column">
+              <div>
                 <img
                   style={{
                     height: "205px",
@@ -89,6 +91,7 @@ export class About extends React.Component {
                     borderRadius: "50%",
                   }}
                   src={marc}
+                  alt=""
                 />
               </div>
             </Stack>

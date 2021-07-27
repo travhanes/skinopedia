@@ -1,23 +1,28 @@
 import React from "react";
-import SkinopediaBackground from "../images/skinopedia-background.png";
+import Background from "../skin_shade_background.JPG";
 
-export default class Header extends React.Component {
-  render() {
-    return (
-      <>
-        <div
+function Header() {
+  return (
+    <>
+      <div
+        style={{
+          textAlign: "center",
+          height: "70px",
+          background: `url(${Background}) no-repeat`,
+          backgroundSize: "100% 70px",
+        }}
+      >
+        <h1
           style={{
-            textAlign: "center",
-            height: "70px",
-            background: `url(${SkinopediaBackground}) no-repeat`,
-            backgroundSize: " 100% 70px",
+            fontSize: "50px",
+            color: "rgb(254, 239, 227)",
           }}
         >
-          <h1 style={{ fontSize: "50px", color: "rgb(254, 239, 227)" }}>
-            S K I N - O - P E D I A
-          </h1>
-        </div>
-      </>
-    );
-  }
+          S K I N - O - P E D I A
+        </h1>
+      </div>
+    </>
+  );
 }
+
+export default Header;

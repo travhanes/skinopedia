@@ -1,13 +1,11 @@
 import React from "react";
 import Navbar from "../components/navbar";
-import Header from "../components/header";
 import Footer from "../components/footer";
 
 export class Contribute extends React.Component {
   render() {
     return (
       <>
-        <Header />
         <Navbar page="3" />
 
         <div style={{ height: "746px", padding: "40px 400px" }}>
@@ -23,11 +21,11 @@ export class Contribute extends React.Component {
             </div>
             <div className="field">
               <label>Your Email</label>
-              <input type="text" name="last-name" placeholder="Last Name" />
+              <input type="text" name="last-name" placeholder="Email" />
             </div>
             <div className="field">
               <label>Your Credentials or Organization</label>
-              <input type="text" name="last-name" placeholder="Last Name" />
+              <input type="text" name="last-name" placeholder="Credentials" />
             </div>
             <div className="field">
               <label>Your feedback or contribution</label>
@@ -39,7 +37,7 @@ export class Contribute extends React.Component {
             </div>
             <div className="field">
               <div className="ui checkbox">
-                <input type="checkbox" tabindex="0" className="hidden" />
+                <input type="checkbox" />
                 <label>I agree to the Terms and Conditions</label>
               </div>
             </div>
