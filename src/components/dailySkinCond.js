@@ -4,6 +4,11 @@ import Data from "../data/skinConditions.json";
 export default function DailySkinCond() {
   let num = Math.trunc(Math.random() * 14);
 
+  function handleClick() {
+    console.log("clicked");
+    window.location = "/explore";
+  }
+
   return (
     <>
       <div className="title" style={{ marginBottom: "0" }}>
@@ -20,7 +25,9 @@ export default function DailySkinCond() {
         }}
       >
         <div className="description" style={{ height: "25%" }}>
-          <h4 style={{ margin: "0" }}>{Data[num].name}</h4>
+          <h4 style={{ margin: "0", cursor: "pointer" }} onClick={handleClick}>
+            {Data[num].name}
+          </h4>
           <p style={{ fontSize: "10px", margin: "0", padding: "0" }}>
             {Data[num].description}
           </p>
