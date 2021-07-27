@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
-import Data from "../data/skinConditions.json";
+import EnglishData from "../data/skinConditions.json";
+// import FrenchData from "../data/skinConditions-french.json";
+// import KiswahiliData from "../data/skinConditions-kiswahili.json";
 
-export default function DailySkinCond() {
+function DailySkinCond() {
   let num = Math.trunc(Math.random() * 14);
 
   function handleClick() {
@@ -26,10 +28,10 @@ export default function DailySkinCond() {
       >
         <div className="description" style={{ height: "25%" }}>
           <h4 style={{ margin: "0", cursor: "pointer" }} onClick={handleClick}>
-            {Data[num].name}
+            {EnglishData[num].name}
           </h4>
           <p style={{ fontSize: "10px", margin: "0", padding: "0" }}>
-            {Data[num].description}
+            {EnglishData[num].description}
           </p>
         </div>
 
@@ -45,12 +47,12 @@ export default function DailySkinCond() {
           }}
         >
           <img
-            src={Data[num].picture_1}
+            src={EnglishData[num].picture_1}
             alt="Left"
             style={{ height: "100%" }}
           />
           <img
-            src={Data[num].picture_2}
+            src={EnglishData[num].picture_2}
             alt="Right"
             style={{ height: "100%" }}
           />
@@ -59,3 +61,5 @@ export default function DailySkinCond() {
     </>
   );
 }
+
+export default DailySkinCond;
