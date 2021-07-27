@@ -1,76 +1,96 @@
 [
-"jina":"Kawasaki Disease",
-"maelezo":"Ugonjwa wa Kawasaki ni ugonjwa mkali wa febrile ambao husababisha uvimbe kwenye kuta za mishipa mwilini. Ni sababu mmoja wapo  ya ugonjwa wa moyo kwa watoto (mara nyingi chini ya miaka 5) katika nchi zinazo endelea",
-"kutambuliwa":"Ishara ni pamoja na homa kali, ngozi ya ngozi, upele kwenye sehemu kuu ya mwili, kuvimba, ngozi nyekundu kwenye mikono ya mikono na miguu",
-"matibabu":"Njia mbili kuu za matibabu ni pamoja na aspirini na immunoglobulin ya ndani. Kawaida inatibika ikigundulika ndani ya siku 10, na watoto kawaida wanaweza kupata nafuu au hata kupona kabisa kutoka kwa ugonjwa huu",
-
-"jina": "Keratosis Pilaris",
-"maelezo": "ni hali ya ugonjwa wa ngozi isiyo na hatari ambayo husababisha mabaka makavu na matuta madogo kwenye mikono ya juu, mashavu, mapaja, au matako",
-"kutambuliwa": "Matuta madogo madogo kwenye ngozi , ngozi kavu na mbaya katika maeneo yenye matuta",
-"matibabu": "mafuta ambayo huzuia follicles zilizochomwa (mara nyingi hutokana na retinoids za mada)",
-
-"jina": "Gangrene",
-"maelezo": "ni kifo cha tishu za mwili kwa sababu ya ukosefu wa mtiririko wa damu au maambukizo makubwa ya bakteria. Ambayo kawaida huathiri mikono na miguu",
-"kutambuliwa": "jeraha ambalo ni nyekundu, kidonda, au kuvimba. jeraha ambalo linajazwa na usaha au hutoa harufu mbaya. imetengwa na mwili wako unahisi baridi. kukosa hisia ya kugusa katika eneo lililotengwa.",
-"matibabu": "",
-
-"jina": "Jaundice",
-"maelezo": " jaundice inahusu rangi ya manjano ya ngozi na tishu laini kwa sababu ya hyperbilirubinaemiacausingbilepigmentdeposition. Jaundicemaybearingultofvariouspre-, intra-, na sababu za baada ya hepatic",
-"kutambuliwa": " Katika ngozi nyeusi, manjano inaweza tu kutoa rangi isiyo ya kawaida ya manjano. Mgonjwa mwenyewe au washiriki wa familia zao wangeweza kugundua mabadiliko. Ni muhimu kulinganisha ngozi ya mgonjwa na wanafamilia wao (ikiwezekana) au picha zao za awali. Ishara za macho ni dhahiri zaidi; icterus ya kiunganishi! utando ambao unasimamia sclera utafanya 'nyeupe ya macho' ionekane ya manjano",
-"matibabu": "",
-
-"jina": "Stomatitis",
-"maelezo": "Kuvimba utando wa kinywa",
-"kutambuliwa": " Stomatitis kawaida huonyesha kama kupasuka kwa pembe za midomo (angular cheilitis). Hii ni chungu na inaweza kuhusishwa na erythema, ulceration & edema. Inaweza kuhusishwa na upungufu wa vitamini B, upungufu wa chuma na ugonjwa wa ngozi ya mawasiliano (inakera na mzio)",
-"matibabu": "",
-
-"jina": "Tinea Capitis",
-"maelezo": "Ugonjwa wa minyoo (fangasi) unaoathiri fuvu la kichwa. Kuvu ya dermatophyte (kawaida Tonsurans ya Trichophyton) huishi kwenye ngozi na nywele. Inaweza kusababisha makovu ya ngozi na maambukizo ya bakteria ya sekondari",
-"kutambuliwa": "Tinea capitis inaweza kusababisha alopecia ya ngozi kama kuambukizwa kwa nywele kunasababisha kuwa brittle na kuvunjika kwa urahisi. Kuambukizwa kwa ngozi husababisha erythema (angalia hue nyekundu kidogo kwenye picha ya kushoto) na kuwasha. Ngozi itaonekana kavu na dhaifu. Ni kawaida kwa watoto wenye umri wa miaka 3 hadi 9 na imeenea zaidi kwa wagonjwa kutoka asili ya Kiafrika-Karibian",
-"matibabu": "",
-
-"jina": "Warts (HPV)",
-"maelezo": "Warts ni uvimbe dhaifu wa tishu ambazo husababishwa na virusi vya papilloma ya binadamu (HPV)",
-"kutambuliwa": "Kuna idadi ndogo ndogo. Vita vya kawaida kawaida huathiri tarakimu na nafasi za wavuti za mikono inayowasilisha kama papuli thabiti, zilizopigwa vizuri. Vipande vya mimea (verrucas) hufanyika juu ya uso wa mitende ya mikono na uso wa mimea (pekee) ya miguu. Pia kuna filiform. aina za periungual, gorofa na cauliflower. Kwa aina ya ngozi nyeusi na kahawia vidonda vinaweza kuonekana vyema kuliko ngozi inayoizunguka",
-"matibabu": "",
-
-"jina": "Clubbing",
-"maelezo": " Klabu inahusu uvimbe mkali wa tishu laini ya terminal phalanx ya nambari Klabu inahusishwa na idadi kubwa ya hali zinazoathiri mifumo kadhaa ya mwili. Hizi ni pamoja na saratani ya mapafu, bronchiectasis, cystic fibrosis, ugonjwa wa matumbo ya uchochezi, ugonjwa wa celiac, endocarditis, ugonjwa wa Makaburi, na ugonjwa wa ini kutaja chache. Utaratibu halisi haujulikani",
-"kutambuliwa": "Klabu ya zawadi kama erythema ya muda na ulainishaji wa msumari ikifuatiwa na kuongezeka kwa pembe ya Lovibond (pembe kati ya msumari na msumari). Kadiri hii inavyoendelea msumari kuwa uliopindika zaidi (kuongezeka kwa msongamano). Unaweza kujaribu upotezaji wa pembe ya msumari kwa kutafuta dirisha la Schamroth. Wakati wa kupigia nambari msumari wa msumari utahisi laini na kupigiwa msumari. Katika ukali mkali (kama vile picha hapo juu) sehemu ya mbali ya nambari inavimba na kuwa kubwa",
-"matibabu": "",
-
-"jina": "Melanonychia",
-"maelezo": "Inasababishwa na utuaji wa melanini kutoka kwa melanocytes kwenye tumbo la msumari linalokaribia",
-"kutambuliwa": "Mstari huu mweusi au kahawia unaweza kutokea kwa baadhi au kucha zote. Mistari inaweza kuenea na nyepesi kwenye kivuli au kuwa nyeusi na kuunda bendi ya longitudinal. Wanaweza kutofautiana kwa upana na msimamo. Mistari kwenye picha imewekwa katikati lakini inaweza pia kutokea baadaye zaidi. Melanonychia ni lahaja ya kawaida hadi 90% ya watu weusi. Inaweza hata hivyo, kuwakilisha melanoma ya subungual (melanoma ya msumari wa msumari). Melanomas kawaida huwa na upana (> 3mm), bendi mpya na inayobadilika kwenye kucha mmoja",
-"matibabu": "",
-
-"jina":"Conjunctival Pallor",
-"maelezo":"Kama ilivyo kwa mitende, pallor inahusu kuonekana kwa ngozi kwa sababu ya kupunguzwa kwa viwango vya oxyhaemoglobin. Hii inaweza kutokea kwa upungufu wa damu au mshtuko",
-"kutambuliwa":"Pallor inaweza kutambuliwa kwa kuvuta chini (au kumwuliza mgonjwa aangushe chini) kope la chini. Conjunctiva ya palpebral kawaida ni pink yenye afya kwa sababu ya usambazaji wa damu wa kitanda cha mishipa. Katika upungufu wa damu itaonekana rangi ya waridi au nyeupe (bila kujali rangi ya ngozi",
-"matibabu":"",
-
-"jina": "Central Cyanosis",
-"maelezo": "Cyanosis inahusu rangi ya rangi ya samawati au kijivu ya ngozi na utando wa mucous kwa sababu ya kiwango kikubwa cha hemoglobini isiyo na oksijeni. Hii inasababishwa na hypoxaemia (oksijeni ya chini ya ateri). Kumbuka kuwa hii ni tofauti na hypoxia ambayo inahusu oksijeni ya kutosha ya tishu",
-"kutambuliwa": " Uwezo wa kugundua sainosisi kwenye ukaguzi wa macho inategemea unene wa ngozi, rangi ya ngozi, na hali ya capillaries zilizokatwa Kwa hivyo ni bora kutafuta cyanosis ambapo epidermis ni nyembamba na usambazaji wa mishipa ni mwingi kama midomo au muhimu zaidi utando wa mucous wa mdomo (buccal, sublingual). Hii inajulikana kama cyanosis kuu. Cyanosis inayoonekana katika mikono na miguu inajulikana kama cyanosis ya pembeni. Cyanosis ya pembeni inaweza kutokea na au bila cyanosis kuu, na ni ngumu zaidi kugundua kwenye ngozi nyeusi",
-"matibabu": "",
-
-"jina": "Erytheme",
-"maelezo": " Erythema inahusu kuonekana nyekundu kwa ngozi inayohusiana na uchochezi na maambukizo",
-"kutambuliwa": "Katika picha ya kwanza (folliculitis) utaona rangi nyekundu / zambarau mara moja ikizunguka vidonge. Sauti ya ngozi ya kawaida ya mgonjwa inathaminiwa sana katika eneo hilo moja kwa moja kati ya vidonge viwili (katikati ya shin). Kugundua erythema kwenye picha ya pili kunasaidiwa na uvimbe ambao unavuta ngozi vizuri na kuupa mwonekano laini na mng'ao na sauti ya chini ya burgundy",
-"matibabu": "",
-
-"jina": "Swelling (Oedema)",
-"maelezo": " Edema inahusu uvimbe kwa sababu ya maji ya ziada. Hii hufanyika katika hali kadhaa pamoja na kutofaulu kwa moyo, mzio na kiwewe",
-"kutambuliwa": "Uvimbe unaweza kuzingatiwa ambapo tishu za mwili zinaonekana kubwa kuliko kawaida. Kushindwa kwa moyo kunaweza kusababisha uvimbe wa miguu na miguu. Unaweza kuona kupigia mahali ambapo sehemu ya ndani inabaki baada ya kubonyeza eneo lililoathiriwa (wagonjwa wengine watakuwa wameweka alama za alama kwenye laini yao). Edema ya shingo na njia za hewa itasababisha ugumu wa kupumua na tabia ya gugling / stridor. Uvimbe wa pamoja kwenye picha hii ni matokeo ya dactylitis (kuvimba kwa tarakimu) unaosababishwa na shida ya seli ya mundu. Kumbuka kuwa mikono na vidole vinaonekana uvimbe na ngozi imechafuka na kung'aa. Ni muhimu kwamba pete yoyote au vito viondolewe kabla ya uvimbe kuwa mkali",
-"matibabu": "",
-
-"jina": "Nail Pitting",
-"maelezo": "Kupigilia msumari inahusu upungufu wa saizi juu ya uso wa misumari",
-"kutambuliwa": "Dokezo kwenye picha hapo juu mara nyingi huhusishwa na psoriasis ambayo kwa kawaida husababisha alama za ngozi zilizo na rangi kwenye nyuso za viungo. Kujitia msumari yenyewe mara nyingi sio kawaida katika muundo na inaweza kuathiri moja, zingine au kucha zote au hata kucha",
-"matibabu": "",
-
-"jina":"Heat Rash",
-"maelezo":"Upele huu mara nyingi hufanyika kwa sababu ya joto na unyevu, lakini mazoezi makali, mavazi yasiyoweza kusumbuliwa, na mavazi ya matibabu pia yanaweza kusababisha. Hali kawaida inaboresha ndani ya siku 1-2.",
-"kutambuliwa":"Kwa sauti nyepesi ya ngozi madoa au malengelenge yanaonekana kuwa nyekundu (kama ilivyoelezewa katika vitabu vingi vya matibabu), lakini katika tani nyeusi za ngozi malengelenge au madoa huonekana kama rangi ya kijivu au nyeupe",
-"matibabu":"",
+  {
+    "name": "Kawasaki Disease",
+    "description": "Ugonjwa wa Kawasaki ni ugonjwa mkali wa febrile ambao husababisha uvimbe kwenye kuta za mishipa mwilini. Ni sababu mmoja wapo  ya ugonjwa wa moyo kwa watoto (mara nyingi chini ya miaka 5) katika nchi zinazo endelea",
+    "recognized": "Ishara ni pamoja na homa kali, ngozi ya ngozi, upele kwenye sehemu kuu ya mwili, kuvimba, ngozi nyekundu kwenye mikono ya mikono na miguu",
+    "treatment": "Njia mbili kuu za matibabu ni pamoja na aspirini na immunoglobulin ya ndani. Kawaida inatibika ikigundulika ndani ya siku 10, na watoto kawaida wanaweza kupata nafuu au hata kupona kabisa kutoka kwa ugonjwa huu",
+    "picture_1": "./images/kawasaki_disease_black.png",
+    "picture_2": "./images/kawasaki_disease_white.png"
+  },
+  {
+    "name": "Keratosis Pilaris",
+    "description": "ni hali ya ugonjwa wa ngozi isiyo na hatari ambayo husababisha mabaka makavu na matuta madogo kwenye mikono ya juu, mashavu, mapaja, au matako",
+    "recognized": "Matuta madogo madogo kwenye ngozi , ngozi kavu na mbaya katika maeneo yenye matuta",
+    "treatment": "mafuta ambayo huzuia follicles zilizochomwa (mara nyingi hutokana na retinoids za mada)"
+  },
+  {
+    "name": "Gangrene",
+    "description": "ni kifo cha tishu za mwili kwa sababu ya ukosefu wa mtiririko wa damu au maambukizo makubwa ya bakteria. Ambayo kawaida huathiri mikono na miguu",
+    "recognized": "jeraha ambalo ni nyekundu, kidonda, au kuvimba. jeraha ambalo linajazwa na usaha au hutoa harufu mbaya. imetengwa na mwili wako unahisi baridi. kukosa hisia ya kugusa katika eneo lililotengwa.",
+    "treatment": ""
+  },
+  {
+    "name": "Jaundice",
+    "description": " jaundice inahusu rangi ya manjano ya ngozi na tishu laini kwa sababu ya hyperbilirubinaemiacausingbilepigmentdeposition. Jaundicemaybearingultofvariouspre-, intra-, na sababu za baada ya hepatic",
+    "recognized": " Katika ngozi nyeusi, manjano inaweza tu kutoa rangi isiyo ya kawaida ya manjano. Mgonjwa mwenyewe au washiriki wa familia zao wangeweza kugundua mabadiliko. Ni muhimu kulinganisha ngozi ya mgonjwa na wanafamilia wao (ikiwezekana) au picha zao za awali. Ishara za macho ni dhahiri zaidi; icterus ya kiunganishi! utando ambao unasimamia sclera utafanya 'nyeupe ya macho' ionekane ya manjano",
+    "treatment": "",
+    "picture_1": "./images/jaundice_black.png",
+    "picture_2": "./images/jaundice_white.png"
+  },
+  {
+    "name": "Stomatitis",
+    "description": "Kuvimba utando wa kinywa",
+    "recognized": " Stomatitis kawaida huonyesha kama kupasuka kwa pembe za midomo (angular cheilitis). Hii ni chungu na inaweza kuhusishwa na erythema, ulceration & edema. Inaweza kuhusishwa na upungufu wa vitamini B, upungufu wa chuma na ugonjwa wa ngozi ya mawasiliano (inakera na mzio)",
+    "treatment": ""
+  },
+  {
+    "name": "Tinea Capitis",
+    "description": "Ugonjwa wa minyoo (fangasi) unaoathiri fuvu la kichwa. Kuvu ya dermatophyte (kawaida Tonsurans ya Trichophyton) huishi kwenye ngozi na nywele. Inaweza kusababisha makovu ya ngozi na maambukizo ya bakteria ya sekondari",
+    "recognized": "Tinea capitis inaweza kusababisha alopecia ya ngozi kama kuambukizwa kwa nywele kunasababisha kuwa brittle na kuvunjika kwa urahisi. Kuambukizwa kwa ngozi husababisha erythema (angalia hue nyekundu kidogo kwenye picha ya kushoto) na kuwasha. Ngozi itaonekana kavu na dhaifu. Ni kawaida kwa watoto wenye umri wa miaka 3 hadi 9 na imeenea zaidi kwa wagonjwa kutoka asili ya Kiafrika-Karibian",
+    "treatment": ""
+  },
+  {
+    "name": "Warts (HPV)",
+    "description": "Warts ni uvimbe dhaifu wa tishu ambazo husababishwa na virusi vya papilloma ya binadamu (HPV)",
+    "recognized": "Kuna idadi ndogo ndogo. Vita vya kawaida kawaida huathiri tarakimu na nafasi za wavuti za mikono inayowasilisha kama papuli thabiti, zilizopigwa vizuri. Vipande vya mimea (verrucas) hufanyika juu ya uso wa mitende ya mikono na uso wa mimea (pekee) ya miguu. Pia kuna filiform. aina za periungual, gorofa na cauliflower. Kwa aina ya ngozi nyeusi na kahawia vidonda vinaweza kuonekana vyema kuliko ngozi inayoizunguka",
+    "treatment": ""
+  },
+  {
+    "name": "Clubbing",
+    "description": " Klabu inahusu uvimbe mkali wa tishu laini ya terminal phalanx ya nambari Klabu inahusishwa na idadi kubwa ya hali zinazoathiri mifumo kadhaa ya mwili. Hizi ni pamoja na saratani ya mapafu, bronchiectasis, cystic fibrosis, ugonjwa wa matumbo ya uchochezi, ugonjwa wa celiac, endocarditis, ugonjwa wa Makaburi, na ugonjwa wa ini kutaja chache. Utaratibu halisi haujulikani",
+    "recognized": "Klabu ya zawadi kama erythema ya muda na ulainishaji wa msumari ikifuatiwa na kuongezeka kwa pembe ya Lovibond (pembe kati ya msumari na msumari). Kadiri hii inavyoendelea msumari kuwa uliopindika zaidi (kuongezeka kwa msongamano). Unaweza kujaribu upotezaji wa pembe ya msumari kwa kutafuta dirisha la Schamroth. Wakati wa kupigia nambari msumari wa msumari utahisi laini na kupigiwa msumari. Katika ukali mkali (kama vile picha hapo juu) sehemu ya mbali ya nambari inavimba na kuwa kubwa",
+    "treatment": ""
+  },
+  {
+    "name": "Melanonychia",
+    "description": "Inasababishwa na utuaji wa melanini kutoka kwa melanocytes kwenye tumbo la msumari linalokaribia",
+    "recognized": "Mstari huu mweusi au kahawia unaweza kutokea kwa baadhi au kucha zote. Mistari inaweza kuenea na nyepesi kwenye kivuli au kuwa nyeusi na kuunda bendi ya longitudinal. Wanaweza kutofautiana kwa upana na msimamo. Mistari kwenye picha imewekwa katikati lakini inaweza pia kutokea baadaye zaidi. Melanonychia ni lahaja ya kawaida hadi 90% ya watu weusi. Inaweza hata hivyo, kuwakilisha melanoma ya subungual (melanoma ya msumari wa msumari). Melanomas kawaida huwa na upana (> 3mm), bendi mpya na inayobadilika kwenye kucha mmoja",
+    "treatment": ""
+  },
+  {
+    "name": "Conjunctival Pallor",
+    "description": "Kama ilivyo kwa mitende, pallor inahusu kuonekana kwa ngozi kwa sababu ya kupunguzwa kwa viwango vya oxyhaemoglobin. Hii inaweza kutokea kwa upungufu wa damu au mshtuko",
+    "recognized": "Pallor inaweza recognized kwa kuvuta chini (au kumwuliza mgonjwa aangushe chini) kope la chini. Conjunctiva ya palpebral kawaida ni pink yenye afya kwa sababu ya usambazaji wa damu wa kitanda cha mishipa. Katika upungufu wa damu itaonekana rangi ya waridi au nyeupe (bila kujali rangi ya ngozi",
+    "treatment": ""
+  },
+  {
+    "name": "Central Cyanosis",
+    "description": "Cyanosis inahusu rangi ya rangi ya samawati au kijivu ya ngozi na utando wa mucous kwa sababu ya kiwango kikubwa cha hemoglobini isiyo na oksijeni. Hii inasababishwa na hypoxaemia (oksijeni ya chini ya ateri). Kumbuka kuwa hii ni tofauti na hypoxia ambayo inahusu oksijeni ya kutosha ya tishu",
+    "recognized": " Uwezo wa kugundua sainosisi kwenye ukaguzi wa macho inategemea unene wa ngozi, rangi ya ngozi, na hali ya capillaries zilizokatwa Kwa hivyo ni bora kutafuta cyanosis ambapo epidermis ni nyembamba na usambazaji wa mishipa ni mwingi kama midomo au muhimu zaidi utando wa mucous wa mdomo (buccal, sublingual). Hii inajulikana kama cyanosis kuu. Cyanosis inayoonekana katika mikono na miguu inajulikana kama cyanosis ya pembeni. Cyanosis ya pembeni inaweza kutokea na au bila cyanosis kuu, na ni ngumu zaidi kugundua kwenye ngozi nyeusi",
+    "treatment": ""
+  },
+  {
+    "name": "Erytheme",
+    "description": " Erythema inahusu kuonekana nyekundu kwa ngozi inayohusiana na uchochezi na maambukizo",
+    "recognized": "Katika picha ya kwanza (folliculitis) utaona rangi nyekundu / zambarau mara moja ikizunguka vidonge. Sauti ya ngozi ya kawaida ya mgonjwa inathaminiwa sana katika eneo hilo moja kwa moja kati ya vidonge viwili (katikati ya shin). Kugundua erythema kwenye picha ya pili kunasaidiwa na uvimbe ambao unavuta ngozi vizuri na kuupa mwonekano laini na mng'ao na sauti ya chini ya burgundy",
+    "treatment": ""
+  },
+  {
+    "name": "Swelling (Oedema)",
+    "description": " Edema inahusu uvimbe kwa sababu ya maji ya ziada. Hii hufanyika katika hali kadhaa pamoja na kutofaulu kwa moyo, mzio na kiwewe",
+    "recognized": "Uvimbe unaweza kuzingatiwa ambapo tishu za mwili zinaonekana kubwa kuliko kawaida. Kushindwa kwa moyo kunaweza kusababisha uvimbe wa miguu na miguu. Unaweza kuona kupigia mahali ambapo sehemu ya ndani inabaki baada ya kubonyeza eneo lililoathiriwa (wagonjwa wengine watakuwa wameweka alama za alama kwenye laini yao). Edema ya shingo na njia za hewa itasababisha ugumu wa kupumua na tabia ya gugling / stridor. Uvimbe wa pamoja kwenye picha hii ni matokeo ya dactylitis (kuvimba kwa tarakimu) unaosababishwa na shida ya seli ya mundu. Kumbuka kuwa mikono na vidole vinaonekana uvimbe na ngozi imechafuka na kung'aa. Ni muhimu kwamba pete yoyote au vito viondolewe kabla ya uvimbe kuwa mkali",
+    "treatment": ""
+  },
+  {
+    "name": "Nail Pitting",
+    "description": "Kupigilia msumari inahusu upungufu wa saizi juu ya uso wa misumari",
+    "recognized": "Dokezo kwenye picha hapo juu mara nyingi huhusishwa na psoriasis ambayo kwa kawaida husababisha alama za ngozi zilizo na rangi kwenye nyuso za viungo. Kujitia msumari yenyewe mara nyingi sio kawaida katika muundo na inaweza kuathiri moja, zingine au kucha zote au hata kucha",
+    "treatment": ""
+  },
+  {
+    "name": "Heat Rash",
+    "description": "Upele huu mara nyingi hufanyika kwa sababu ya joto na unyevu, lakini mazoezi makali, mavazi yasiyoweza kusumbuliwa, na mavazi ya matibabu pia yanaweza kusababisha. Hali kawaida inaboresha ndani ya siku 1-2.",
+    "recognized": "Kwa sauti nyepesi ya ngozi madoa au malengelenge yanaonekana kuwa nyekundu (kama ilivyoelezewa katika vitabu vingi vya matibabu), lakini katika tani nyeusi za ngozi malengelenge au madoa huonekana kama rangi ya kijivu au nyeupe",
+    "treatment": ""
+  }
 ]

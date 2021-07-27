@@ -4,8 +4,8 @@
     "description": "An acute febrile illness that causes swelling in the walls of arteries in the body. It is The most common cause of heart disease in children (often younger than 5 years) in developed countries.",
     "recognised": "Signs include high fever, peeling skin, rash on the main portion of the body, swollen, red skin on the palms of hands and soles of feet.",
     "treatment": "The two main means of treatment include aspirin and intravenous immunoglobulin. It is usually treatable if discovered within 10 days, and children normally can recover from this disease.",
-    "picture_1": "kawasakiDiseaseBlack",
-    "picture_2": "kawasakiDiseaseWhite"
+    "picture_1": "./images/kawasaki_disease_black.png",
+    "picture_2": "./images/kawasaki_disease_white.png"
   },
   {
     "name": "Keratosis Pilaris",
@@ -23,13 +23,17 @@
     "name": "Jaundice",
     "description": "Jaundice refers to yellow discolouration of the skin and soft tissues due to hyperbilirubinaemiacausingbilepigmentdeposition. Jaundicemaybearesultofvariouspre-, intra-, and post-hepatic causes",
     "recognised": " In dark skin, jaundice might only produce subtle yellow discolouration",
-    "treatment": "Drink at least eight glasses of fluids per day"
+    "treatment": "Drink at least eight glasses of fluids per day",
+    "picture_1": "./images/jaundice_black.png",
+    "picture_2": "./images/jaundice_white.png"
   },
   {
     "name": "Stomatitis",
     "description": "Inflammation of the mucous membranes of the mouth",
     "recognised": "Stomatitis commonly presents as cracking of the corners of the lips (angular cheilitis)",
-    "treatment": "Avoiding hot beverages and foods as well as salty, spicy, and citrus-based foods"
+    "treatment": "Avoiding hot beverages and foods as well as salty, spicy, and citrus-based foods",
+    "picture_1": "./images/stomatitis_black.png",
+    "picture_2": "./images/stomatitis_white.png"
   },
   {
     "name": "Tinea Capitis",

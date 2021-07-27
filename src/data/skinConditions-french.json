@@ -1,75 +1,96 @@
-["nom":"Boutons de chaleur",
-"description":" éruption de sueur, et chaleur épineuse sont des noms communs pour la malaria, une affection cutanée qui survient lorsque les canaux sudoripares de la peau se bouchent",
-"reconnaissance":"Rester frais, porter des vêtement plus aérés,et changer ou, si recommandé, retirer les pansements peut aider",
-"traitement":"Sur un teint plus clair, les taches ou les cloques semblent rouges (comme décrit dans de nombreux manuels médicaux), mais dans les tons de peau plus foncés, les cloques ou les taches apparaissent comme une couleur grise ou blanche",
-
-"nom": "Piqûres d'ongles",
-"description": "La piqûre des ongles fait référence à des dépressions de la taille d'une épingle à la surface des ongles",
-"reconnaissance": "Les indentations dans l'image ci-dessus sont souvent associées au psoriasis qui provoque généralement des plaques cutanées argentées sur les surfaces d'extension des articulations.La piqûre des ongles elle-même est souvent irrégulière et peut affecter un, plusieurs ou tous les ongles ou même les ongles des pieds",
-"traitement": "",
-
-"nom": "Gonflement (œdème)",
-"description": " L'œdème fait référence à un gonflement dû à un excès de liquide.Cela se produit dans un certain nombre de conditions, notamment l'insuffisance cardiaque, les allergies et les traumatismes",
-"reconnaissance": "Un gonflement peut être observé lorsque les tissus corporels semblent plus gros que la normale. Une insuffisance cardiaque peut entraîner un gonflement des chevilles et des jambes. Vous pouvez voir des piqûres là où une indentation reste après avoir appuyé sur la zone touchée (certains patients auront des indentations marquées le long de leur chaussette). L'œdème du cou et des voies respiratoires entraînera des difficultés respiratoires et des gargouillis/stridor caractéristiques. Le gonflement des articulations sur cette image est le résultat d'une dactylite (inflammation des doigts) causée par une crise drépanocytaire. A noter que les mains et les doigts paraissent « gonflés » et que la peau est tendue et brillante. Il est essentiel que les bagues ou les bijoux soient retirés avant que l'enflure ne s'aggrave",
-"traitement": "",
-
-"nom":"Érythème",
-"description":"L'érythème fait référence à l'apparence rouge de la peau associée à une inflammation et à une infection",
-"reconnaissance":"Sur la première image (folliculite), vous remarquerez la teinte rouge/violette entourant immédiatement les pustules. Le teint régulier de la peau du patient est mieux apprécié dans la zone située directement entre les deux pustules (milieu du tibia). La détection de l'érythème dans la deuxième image est facilitée par le gonflement qui tire la peau et lui donne un aspect lisse et brillant avec une nuance bordeaux",
-"traitement":"",
-
-"nom": "Cyanose centrale",
-"description": "La cyanose fait référence à une décoloration bleue ou grise de la peau et des muqueuses due à des niveaux élevés d'hémoglobine désoxygénée. Ceci est causé par une hypoxémie (faible teneur en oxygène artériel). Notez que cela est distinct de l'hypoxie qui fait référence à une oxygénation insuffisante des tissus",
-"reconnaissance": "La capacité à détecter une cyanose à l'inspection visuelle dépend de « l'épaisseur dermique, de la pigmentation cutanée et de l'état des capillaires cutanés ». Il est donc préférable de rechercher une cyanose là où l'épiderme est mince et l'apport vasculaire est abondant comme les lèvres ou surtout les muqueuses buccales (buccale, sublinguale). C'est ce qu'on appelle la cyanose centrale. La cyanose détectée dans les mains et les pieds est connue sous le nom de cyanose périphérique. La cyanose périphérique peut survenir avec ou sans cyanose centrale et est plus difficile à détecter sur peau foncée",
-"traitement": "",
-
-"nom": "Pâleur conjonctiva",
-"description": "la pâleur fait référence à l'apparence pâle de la peau due à des niveaux réduits d'oxyhémoglobine. Cela peut se produire en cas d'anémie ou de choc",
-"reconnaissance": " La pâleur peut être identifiée en tirant vers le bas (ou en demandant au patient de tirer vers le bas) la paupière inférieure. La conjonctive palpébrale est généralement d'un rose sain en raison de l'apport sanguin du lit vasculaire. Dans l'anémie, il apparaîtra rose pâle ou blanc (quelle que soit la couleur de la peau",
-"traitement": "",
-
-"nom": "Mélanonychie",
-"description": " La mélanonychie longitudinale fait référence à une ligne pigmentée qui s'étend verticalement le long de l'ongle. Elle est causée par le dépôt de mélanine des mélanocytes dans la matrice proximale de l'ongle",
-"reconnaissance": "Ces lignes noires ou brunes peuvent apparaître sur certains ou sur tous les ongles. Les lignes peuvent être diffuses et claires dans l'ombre ou être plus foncées et former une bande longitudinale. Ils peuvent varier en largeur et en position. Les lignes dans les images sont principalement positionnées au centre, mais elles peuvent également apparaître plus latéralement. La mélanonychie est une variante normale chez jusqu'à 90 % des Noirs. Il peut cependant s'agir d'un mélanome sous-unguéal (mélanome du lit de l'ongle). Les mélanomes ont généralement une bande large (> 3 mm), nouvelle et changeante dans un seul ongle",
-"traitement": "",
-
-"nom": "Gonflement des doigts",
-"description": "Le matraquage fait référence au gonflement bulbeux des tissus mous de la phalange terminale d'un doigt.Le clubbing est associé à un grand nombre de conditions affectant un certain nombre de systèmes corporels différents. Ceux-ci incluent le cancer du poumon, la bronchectasie, la fibrose kystique, la maladie inflammatoire de l'intestin, la maladie cœliaque, l'endocardite, la maladie de Graves et la maladie du foie pour n'en nommer que quelques-uns. Le mécanisme exact est inconnu",
-"reconnaissance": "Le clubbing se présente sous la forme d'un érythème périunguéal et d'un ramollissement du lit de l'ongle suivi d'une augmentation de l'angle de Lovibond (angle entre le lit de l'ongle et la plaque de l'ongle). Au fur et à mesure que cela se développe, l'ongle devient plus courbé (convexité accrue). Vous pouvez tester la perte de l'angle de l'ongle en recherchant la fenêtre de Schamroth. Lors de la palpation du doigt, le lit de l'ongle sera doux et l'ongle ballotable. En cas de clubbing sévère (comme l'image ci-dessus), la partie distale du doigt devient enflée et bulbeuse",
-"traitement": "",
-
-"nom": "Verrues (VPH)",
-"description": "Les verrues sont des gonflements bénins des tissus mous causés par le virus du papillome humain (VPH)",
-"reconnaissance": "Il existe un certain nombre de sous-types différents. Les verrues vulgaires affectent généralement les doigts et les espaces web des mains se présentant comme des papules fermes et bien circonscrites. Les verrues plantaires (verrues) se produisent sur la surface palmaire des mains et la surface plantaire (semelle) des pieds. Il existe aussi des filiformes. types périunguéaux, plats et chou-fleur. Pour les types de peau noire et brune, les verrues peuvent apparaître plus pâles que la peau environnante",
-"traitement": "",
-
-"nom": "Teigne",
-"description": "Une infection par la teigne (fongique) affectant le cuir chevelu. Les champignons dermatophytes (le plus souvent Trichophyton Tonsurans) vivent sur l'épiderme et les cheveux. Cela peut entraîner des cicatrices sur la peau et des infections bactériennes secondaires",
-"reconnaissance": "Tinea capitis peut provoquer une alopécie inégale car l'infection des poils les rend cassants et se cassent facilement. L'infection de la peau provoque un érythème (notez la teinte légèrement rouge sur l'image de gauche) et des démangeaisons. La peau paraîtra sèche et squameuse. Elle est plus fréquente chez les enfants âgés de 3 à 9 ans et est plus fréquente chez les patients d'origine afro-caribéenne",
-"traitement": "",
-
-"nom": "Stomatite",
-"description": "Inflammation des muqueuses de la bouche",
-"reconnaissance": "La stomatite se présente généralement sous la forme d'un craquement des commissures des lèvres (chéilite angulaire). Ceci est douloureux et peut être associé à un érythème, une ulcération et un œdème. Elle peut être associée à une carence en vitamine B, une carence en fer et une dermatite de contact (irritante et allergique)",
-"traitement": "",
-
-"nom": "Jaunisse",
-"description": "La jaunisse fait référence à une décoloration jaune de la peau et des tissus mous due à une hyperbilirubinémie causant un dépôt de pigment biliaire. La jaunisse peut résulter de diverses causes pré-, intra- et post-hépatiques",
-"reconnaissance": "Dans la peau foncée, la jaunisse peut seulement produire une légère décoloration jaune. Le patient lui-même ou les membres de sa famille ont peut-être remarqué un changement. Il est utile de comparer la peau du patient à celle des membres de sa famille (si possible) ou à des photos antérieures d'eux-mêmes. Les signes oculaires sont plus évidents; ictère de la conjonctive ! membrane qui recouvre la sclérotique fera apparaître le «blanc des yeux» en jaune",
-"traitement": "",
-
-"nom": "Gangrène",
-"description": "est la mort des tissus corporels due à un manque de circulation sanguine ou à une infection bactérienne grave. Ce qui affecte généralement les bras et les jambes",
-"reconnaissance": "plaie rouge, douloureuse ou enflée. une plaie remplie de pus ou dégageant une mauvaise odeur. isolé et votre corps a froid. manque de sens du toucher dans une zone isolée",
-"traitement": "",
-
-"nom": "Kératose pilaire",
-"description": "La kératose pilaire est une affection cutanée courante mais inoffensive qui provoque des zones rugueuses sèches et de minuscules bosses sur le haut des bras, les joues, les cuisses ou les fesses",
-"reconnaissance": "Petites bosses indolores, peau sèche et rugueuse dans les zones bosselées",
-"traitement": " crèmes qui empêchent les follicules obstrués (souvent dérivés de rétinoïdes topiques)",
-
-"nom": "Maladie de Kawasaki",
-"description": "La maladie de Kawasaki est une maladie fébrile aiguë qui provoque un gonflement des parois des artères du corps. C'est la cause la plus fréquente de maladie cardiaque chez les enfants (souvent de moins de 5 ans) dans les pays développés",
-"reconnaissance": "Les signes comprennent une forte fièvre, une desquamation de la peau, une éruption cutanée sur la partie principale du corps, une peau enflée et rouge sur la paume des mains et la plante des pieds",
-"traitement": " Les deux principaux moyens de traitement sont l'aspirine et l'immunoglobuline intraveineuse. Elle est généralement traitable si elle est découverte dans les 10 jours, et les enfants peuvent normalement se remettre de cette maladie",
+[
+  {
+    "name": "Boutons de chaleur",
+    "description": " éruption de sueur, et chaleur épineuse sont des noms communs pour la malaria, une affection cutanée qui survient lorsque les canaux sudoripares de la peau se bouchent",
+    "recognized": "Rester frais, porter des vêtement plus aérés,et changer ou, si recommandé, retirer les pansements peut aider",
+    "treatment": "Sur un teint plus clair, les taches ou les cloques semblent rouges (comme décrit dans de nombreux manuels médicaux), mais dans les tons de peau plus foncés, les cloques ou les taches apparaissent comme une couleur grise ou blanche"
+  },
+  {
+    "name": "Piqûres d'ongles",
+    "description": "La piqûre des ongles fait référence à des dépressions de la taille d'une épingle à la surface des ongles",
+    "recognized": "Les indentations dans l'image ci-dessus sont souvent associées au psoriasis qui provoque généralement des plaques cutanées argentées sur les surfaces d'extension des articulations.La piqûre des ongles elle-même est souvent irrégulière et peut affecter un, plusieurs ou tous les ongles ou même les ongles des pieds",
+    "treatment": ""
+  },
+  {
+    "name": "Gonflement (œdème)",
+    "description": " L'œdème fait référence à un gonflement dû à un excès de liquide.Cela se produit dans un certain nombre de conditions, notamment l'insuffisance cardiaque, les allergies et les traumatismes",
+    "recognized": "Un gonflement peut être observé lorsque les tissus corporels semblent plus gros que la normale. Une insuffisance cardiaque peut entraîner un gonflement des chevilles et des jambes. Vous pouvez voir des piqûres là où une indentation reste après avoir appuyé sur la zone touchée (certains patients auront des indentations marquées le long de leur chaussette). L'œdème du cou et des voies respiratoires entraînera des difficultés respiratoires et des gargouillis/stridor caractéristiques. Le gonflement des articulations sur cette image est le résultat d'une dactylite (inflammation des doigts) causée par une crise drépanocytaire. A noter que les mains et les doigts paraissent « gonflés » et que la peau est tendue et brillante. Il est essentiel que les bagues ou les bijoux soient retirés avant que l'enflure ne s'aggrave",
+    "treatment": ""
+  },
+  {
+    "name": "Érythème",
+    "description": "L'érythème fait référence à l'apparence rouge de la peau associée à une inflammation et à une infection",
+    "treatment": "",
+    "recognized": "Sur la première image (folliculite), vous remarquerez la teinte rouge/violette entourant immédiatement les pustules. Le teint régulier de la peau du patient est mieux apprécié dans la zone située directement entre les deux pustules (milieu du tibia). La détection de l'érythème dans la deuxième image est facilitée par le gonflement qui tire la peau et lui donne un aspect lisse et brillant avec une nuance bordeaux"
+  },
+  {
+    "name": "Cyanose centrale",
+    "description": "La cyanose fait référence à une décoloration bleue ou grise de la peau et des muqueuses due à des niveaux élevés d'hémoglobine désoxygénée. Ceci est causé par une hypoxémie (faible teneur en oxygène artériel). Notez que cela est distinct de l'hypoxie qui fait référence à une oxygénation insuffisante des tissus",
+    "recognized": "La capacité à détecter une cyanose à l'inspection visuelle dépend de « l'épaisseur dermique, de la pigmentation cutanée et de l'état des capillaires cutanés ». Il est donc préférable de rechercher une cyanose là où l'épiderme est mince et l'apport vasculaire est abondant comme les lèvres ou surtout les muqueuses buccales (buccale, sublinguale). C'est ce qu'on appelle la cyanose centrale. La cyanose détectée dans les mains et les pieds est connue sous le nom de cyanose périphérique. La cyanose périphérique peut survenir avec ou sans cyanose centrale et est plus difficile à détecter sur peau foncée",
+    "treatment": ""
+  },
+  {
+    "name": "Pâleur conjonctiva",
+    "description": "la pâleur fait référence à l'apparence pâle de la peau due à des niveaux réduits d'oxyhémoglobine. Cela peut se produire en cas d'anémie ou de choc",
+    "recognized": " La pâleur peut être identifiée en tirant vers le bas (ou en demandant au patient de tirer vers le bas) la paupière inférieure. La conjonctive palpébrale est généralement d'un rose sain en raison de l'apport sanguin du lit vasculaire. Dans l'anémie, il apparaîtra rose pâle ou blanc (quelle que soit la couleur de la peau",
+    "treatment": ""
+  },
+  {
+    "name": "Mélanonychie",
+    "description": " La mélanonychie longitudinale fait référence à une ligne pigmentée qui s'étend verticalement le long de l'ongle. Elle est causée par le dépôt de mélanine des mélanocytes dans la matrice proximale de l'ongle",
+    "recognized": "Ces lignes noires ou brunes peuvent apparaître sur certains ou sur tous les ongles. Les lignes peuvent être diffuses et claires dans l'ombre ou être plus foncées et former une bande longitudinale. Ils peuvent varier en largeur et en position. Les lignes dans les images sont principalement positionnées au centre, mais elles peuvent également apparaître plus latéralement. La mélanonychie est une variante normale chez jusqu'à 90 % des Noirs. Il peut cependant s'agir d'un mélanome sous-unguéal (mélanome du lit de l'ongle). Les mélanomes ont généralement une bande large (> 3 mm), nouvelle et changeante dans un seul ongle",
+    "treatment": ""
+  },
+  {
+    "name": "Gonflement des doigts",
+    "description": "Le matraquage fait référence au gonflement bulbeux des tissus mous de la phalange terminale d'un doigt.Le clubbing est associé à un grand nombre de conditions affectant un certain nombre de systèmes corporels différents. Ceux-ci incluent le cancer du poumon, la bronchectasie, la fibrose kystique, la maladie inflammatoire de l'intestin, la maladie cœliaque, l'endocardite, la maladie de Graves et la maladie du foie pour n'en nommer que quelques-uns. Le mécanisme exact est inconnu",
+    "recognized": "Le clubbing se présente sous la forme d'un érythème périunguéal et d'un ramollissement du lit de l'ongle suivi d'une augmentation de l'angle de Lovibond (angle entre le lit de l'ongle et la plaque de l'ongle). Au fur et à mesure que cela se développe, l'ongle devient plus courbé (convexité accrue). Vous pouvez tester la perte de l'angle de l'ongle en recherchant la fenêtre de Schamroth. Lors de la palpation du doigt, le lit de l'ongle sera doux et l'ongle ballotable. En cas de clubbing sévère (comme l'image ci-dessus), la partie distale du doigt devient enflée et bulbeuse",
+    "treatment": ""
+  },
+  {
+    "name": "Verrues (VPH)",
+    "description": "Les verrues sont des gonflements bénins des tissus mous causés par le virus du papillome humain (VPH)",
+    "recognized": "Il existe un certain nombre de sous-types différents. Les verrues vulgaires affectent généralement les doigts et les espaces web des mains se présentant comme des papules fermes et bien circonscrites. Les verrues plantaires (verrues) se produisent sur la surface palmaire des mains et la surface plantaire (semelle) des pieds. Il existe aussi des filiformes. types périunguéaux, plats et chou-fleur. Pour les types de peau noire et brune, les verrues peuvent apparaître plus pâles que la peau environnante",
+    "treatment": ""
+  },
+  {
+    "name": "Teigne",
+    "description": "Une infection par la teigne (fongique) affectant le cuir chevelu. Les champignons dermatophytes (le plus souvent Trichophyton Tonsurans) vivent sur l'épiderme et les cheveux. Cela peut entraîner des cicatrices sur la peau et des infections bactériennes secondaires",
+    "recognized": "Tinea capitis peut provoquer une alopécie inégale car l'infection des poils les rend cassants et se cassent facilement. L'infection de la peau provoque un érythème (notez la teinte légèrement rouge sur l'image de gauche) et des démangeaisons. La peau paraîtra sèche et squameuse. Elle est plus fréquente chez les enfants âgés de 3 à 9 ans et est plus fréquente chez les patients d'origine afro-caribéenne",
+    "treatment": ""
+  },
+  {
+    "name": "Stomatite",
+    "description": "Inflammation des muqueuses de la bouche",
+    "recognized": "La stomatite se présente généralement sous la forme d'un craquement des commissures des lèvres (chéilite angulaire). Ceci est douloureux et peut être associé à un érythème, une ulcération et un œdème. Elle peut être associée à une carence en vitamine B, une carence en fer et une dermatite de contact (irritante et allergique)",
+    "treatment": "",
+    "picture_1": "./images/stomatitis_black.png",
+    "picture_2": "./images/stomatitis_white.png"
+  },
+  {
+    "name": "Jaunisse",
+    "description": "La jaunisse fait référence à une décoloration jaune de la peau et des tissus mous due à une hyperbilirubinémie causant un dépôt de pigment biliaire. La jaunisse peut résulter de diverses causes pré-, intra- et post-hépatiques",
+    "recognized": "Dans la peau foncée, la jaunisse peut seulement produire une légère décoloration jaune. Le patient lui-même ou les membres de sa famille ont peut-être remarqué un changement. Il est utile de comparer la peau du patient à celle des membres de sa famille (si possible) ou à des photos antérieures d'eux-mêmes. Les signes oculaires sont plus évidents; ictère de la conjonctive ! membrane qui recouvre la sclérotique fera apparaître le «blanc des yeux» en jaune",
+    "treatment": ""
+  },
+  {
+    "name": "Gangrène",
+    "description": "est la mort des tissus corporels due à un manque de circulation sanguine ou à une infection bactérienne grave. Ce qui affecte généralement les bras et les jambes",
+    "recognized": "plaie rouge, douloureuse ou enflée. une plaie remplie de pus ou dégageant une mauvaise odeur. isolé et votre corps a froid. manque de sens du toucher dans une zone isolée",
+    "treatment": ""
+  },
+  {
+    "name": "Kératose pilaire",
+    "description": "La kératose pilaire est une affection cutanée courante mais inoffensive qui provoque des zones rugueuses sèches et de minuscules bosses sur le haut des bras, les joues, les cuisses ou les fesses",
+    "recognized": "Petites bosses indolores, peau sèche et rugueuse dans les zones bosselées",
+    "treatment": " crèmes qui empêchent les follicules obstrués (souvent dérivés de rétinoïdes topiques)"
+  },
+  {
+    "name": "Maladie de Kawasaki",
+    "description": "La maladie de Kawasaki est une maladie fébrile aiguë qui provoque un gonflement des parois des artères du corps. C'est la cause la plus fréquente de maladie cardiaque chez les enfants (souvent de moins de 5 ans) dans les pays développés",
+    "recognized": "Les signes comprennent une forte fièvre, une desquamation de la peau, une éruption cutanée sur la partie principale du corps, une peau enflée et rouge sur la paume des mains et la plante des pieds",
+    "treatment": " Les deux principaux moyens de traitement sont l'aspirine et l'immunoglobuline intraveineuse. Elle est généralement traitable si elle est découverte dans les 10 jours, et les enfants peuvent normalement se remettre de cette maladie",
+    "picture_1": "./images/kawasaki_disease_black.png",
+    "picture_2": "./images/kawasaki_disease_white.png"
+  }
 ]
