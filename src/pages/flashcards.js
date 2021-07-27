@@ -9,7 +9,7 @@ import { Stack } from "@fluentui/react";
 function Flashcards() {
   const [toggle, setToggle] = useState(false);
   const [dataNum, setDataNum] = useState([3, 3, 0, 4, 4]);
-  const [deckName, setDeckName] = useState("Deck Name");
+  const [deckName, setDeckName] = useState("3 3 0 4 4");
 
   function toggleMenu() {
     setToggle(!toggle);

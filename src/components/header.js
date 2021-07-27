@@ -1,5 +1,6 @@
 import React from "react";
 import Background from "../skin_shade_background.JPG";
+import LanguageSelector from "./languageSelector";
 
 function Header() {
   function handleClick() {
@@ -8,6 +9,7 @@ function Header() {
 
   return (
     <>
+      <LanguageSelector />
       <div
         style={{
           textAlign: "center",
