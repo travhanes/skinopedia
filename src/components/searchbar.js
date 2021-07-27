@@ -6,7 +6,7 @@ function Searchbar() {
   const [searchTerm, setSearchTerm] = useState("");
 
   return (
-    <div>
+    <div className="container">
       <div className="ui search">
         <div className="ui icon input">
           <input

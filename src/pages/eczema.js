@@ -2,7 +2,9 @@ import React from "react";
 import Footer from "../components/footer";
 import "../explore.css";
 import Navbar from "../components/navbar";
+//import from skinconditions.json
 
+// ConditionDetails
 export class Eczema extends React.Component {
   render() {
     return (

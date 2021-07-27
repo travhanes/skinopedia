@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Data from "../data/skinConditions.json";
 
 export default function DailySkinCond() {
+  let num = Math.trunc(Math.random() * 14);
+
   return (
     <>
       <div className="title" style={{ marginBottom: "0" }}>
-        Random Skin Condition of the Day
+        Random Skin Condition
       </div>
       <div
         style={{
@@ -18,9 +20,9 @@ export default function DailySkinCond() {
         }}
       >
         <div className="description" style={{ height: "25%" }}>
-          <h4 style={{ margin: "0" }}>{Data[0].name}</h4>
+          <h4 style={{ margin: "0" }}>{Data[num].name}</h4>
           <p style={{ fontSize: "10px", margin: "0", padding: "0" }}>
-            {Data[0].description}
+            {Data[num].description}
           </p>
         </div>
 
@@ -35,8 +37,16 @@ export default function DailySkinCond() {
             padding: "10px",
           }}
         >
-          <img src={Data[0].picture_1} alt="Left" style={{ height: "100%" }} />
-          <img src={Data[0].picture_2} alt="Right" style={{ height: "100%" }} />
+          <img
+            src={Data[num].picture_1}
+            alt="Left"
+            style={{ height: "100%" }}
+          />
+          <img
+            src={Data[num].picture_2}
+            alt="Right"
+            style={{ height: "100%" }}
+          />
         </div>
       </div>
     </>

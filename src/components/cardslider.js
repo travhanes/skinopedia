@@ -4,8 +4,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../cardslider.css";
 import Data from "../data/skinConditions.json";
 
-function CardSlider() {
+function CardSlider(props) {
   const [flip, setFlip] = useState(true);
+  const num0 = props.dataNum[0];
+  const num1 = props.dataNum[1];
+  const num2 = props.dataNum[2];
+  const num3 = props.dataNum[3];
+  const num4 = props.dataNum[4];
 
   return (
     <>
@@ -39,7 +44,7 @@ function CardSlider() {
             >
               {flip && (
                 <img
-                  src={Data[3].picture_1}
+                  src={Data[num0].picture_1}
                   alt="First Card"
                   style={{ height: "100%" }}
                 />
@@ -47,7 +52,7 @@ function CardSlider() {
               {!flip && (
                 <div>
                   <h1 style={{ fontSize: "60px", color: "white" }}>
-                    {Data[3].name}
+                    {Data[num0].name}
                   </h1>
                 </div>
               )}
@@ -66,7 +71,7 @@ function CardSlider() {
             >
               {flip && (
                 <img
-                  src={Data[3].picture_2}
+                  src={Data[num1].picture_2}
                   alt="Second Card"
                   style={{ height: "100%" }}
                 />
@@ -74,7 +79,7 @@ function CardSlider() {
               {!flip && (
                 <div>
                   <h1 style={{ fontSize: "60px", color: "white" }}>
-                    {Data[3].name}
+                    {Data[num1].name}
                   </h1>
                 </div>
               )}
@@ -93,7 +98,7 @@ function CardSlider() {
             >
               {flip && (
                 <img
-                  src={Data[0].picture_1}
+                  src={Data[num2].picture_1}
                   alt="Third Card"
                   style={{ height: "100%" }}
                 />
@@ -101,7 +106,7 @@ function CardSlider() {
               {!flip && (
                 <div>
                   <h1 style={{ fontSize: "60px", color: "white" }}>
-                    {Data[0].name}
+                    {Data[num2].name}
                   </h1>
                 </div>
               )}
@@ -120,7 +125,7 @@ function CardSlider() {
             >
               {flip && (
                 <img
-                  src={Data[4].picture_2}
+                  src={Data[num3].picture_2}
                   alt="Third Card"
                   style={{ height: "100%" }}
                 />
@@ -128,7 +133,7 @@ function CardSlider() {
               {!flip && (
                 <div>
                   <h1 style={{ fontSize: "60px", color: "white" }}>
-                    {Data[4].name}
+                    {Data[num3].name}
                   </h1>
                 </div>
               )}
@@ -147,7 +152,7 @@ function CardSlider() {
             >
               {flip && (
                 <img
-                  src={Data[4].picture_1}
+                  src={Data[num4].picture_1}
                   alt="Third Card"
                   style={{ height: "100%" }}
                 />
@@ -155,7 +160,7 @@ function CardSlider() {
               {!flip && (
                 <div>
                   <h1 style={{ fontSize: "60px", color: "white" }}>
-                    {Data[4].name}
+                    {Data[num4].name}
                   </h1>
                 </div>
               )}

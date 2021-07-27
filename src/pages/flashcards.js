@@ -7,9 +7,15 @@ import Cardslider from "../components/cardslider";
 
 function Flashcards() {
   const [toggle, setToggle] = useState(false);
+  const [dataNum, setDataNum] = useState([3, 3, 0, 4, 4]);
 
   function toggleMenu() {
     setToggle(!toggle);
+  }
+
+  function onChooseDeck(array) {
+    console.log(array);
+    setDataNum(array);
   }
 
   return (
@@ -19,9 +25,14 @@ function Flashcards() {
         <Sidebutton onToggleMenu={toggleMenu} />
       </div>
 
-      <div className="ui attached pushable" style={{ height: "100vh" }}>
-        <Sidebar toggleMenu={toggle} />
-        <div className="pusher bottom">
+      <div className="ui attached pushable" style={{ height: "730px" }}>
+        <Sidebar toggleMenu={toggle} onChooseDeck={onChooseDeck} />
+        <div
+          className="pusher bottom"
+          style={{
+            height: "730px",
+          }}
+        >
           <div
             style={{
               display: "flex",
@@ -30,7 +41,7 @@ function Flashcards() {
               height: "730px",
             }}
           >
-            <Cardslider />
+            <Cardslider dataNum={dataNum} />
           </div>
         </div>
       </div>

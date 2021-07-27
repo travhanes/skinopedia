@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import Searchbar from "../components/searchbar";
-import { DefaultButton, Stack } from "@fluentui/react";
+import { Stack } from "@fluentui/react";
 import DailySkinCond from "../components/dailySkinCond";
 
 export class Homepage extends React.Component {
