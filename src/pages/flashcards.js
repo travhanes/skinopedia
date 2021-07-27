@@ -4,18 +4,20 @@ import Footer from "../components/footer";
 import Sidebar from "../components/sidebar";
 import Sidebutton from "../components/sidebutton";
 import Cardslider from "../components/cardslider";
+import { Stack } from "@fluentui/react";
 
 function Flashcards() {
   const [toggle, setToggle] = useState(false);
   const [dataNum, setDataNum] = useState([3, 3, 0, 4, 4]);
+  const [deckName, setDeckName] = useState("3 3 0 4 4");
 
   function toggleMenu() {
     setToggle(!toggle);
   }
 
-  function onChooseDeck(array) {
-    console.log(array);
+  function onChooseDeck(array, deckName) {
     setDataNum(array);
+    setDeckName(deckName);
   }
 
   return (
@@ -41,7 +43,10 @@ function Flashcards() {
               height: "730px",
             }}
           >
-            <Cardslider dataNum={dataNum} />
+            <Stack>
+              <h2>{deckName}</h2>
+              <Cardslider dataNum={dataNum} />
+            </Stack>
           </div>
         </div>
       </div>
