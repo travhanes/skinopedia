@@ -1,5 +1,5 @@
 import React from "react";
-import SkinopediaBackground from "../images/skinopedia-background.png";
+import Background from "../skin_shade_background.JPG";
 
 function Footer() {
   return (
@@ -11,7 +11,7 @@ function Footer() {
         width: "100%",
         position: "fixed",
         bottom: "0px",
-        background: `url(${SkinopediaBackground}) no-repeat`,
+        background: `url(${Background}) no-repeat`,
         backgroundSize: " 100% 70px",
       }}
     >
