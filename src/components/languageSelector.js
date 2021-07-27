@@ -10,15 +10,15 @@ const LanguageSelector = () => {
             autocomplete="off"
             checked
           />
-          Active
+          English
         </label>
         <label class="btn btn-secondary">
           <input type="radio" name="options" id="option2" autocomplete="off" />
-          Radio
+          French
         </label>
         <label class="btn btn-secondary">
           <input type="radio" name="options" id="option2" autocomplete="off" />
-          Third
+          Kiswahili
         </label>
       </div>
     </div>
