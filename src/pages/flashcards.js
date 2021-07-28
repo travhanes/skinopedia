@@ -6,7 +6,7 @@ import Sidebutton from "../components/sidebutton";
 import Cardslider from "../components/cardslider";
 import { Stack } from "@fluentui/react";
 
-function Flashcards() {
+function Flashcards(props) {
   const [toggle, setToggle] = useState(false);
   const [dataNum, setDataNum] = useState([3, 3, 0, 4, 4]);
   const [deckName, setDeckName] = useState("3 3 0 4 4");
@@ -45,7 +45,7 @@ function Flashcards() {
           >
             <Stack>
               <h2>{deckName}</h2>
-              <Cardslider dataNum={dataNum} />
+              <Cardslider dataNum={dataNum} language={props.language} />
             </Stack>
           </div>
         </div>

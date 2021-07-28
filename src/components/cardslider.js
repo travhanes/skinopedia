@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../cardslider.css";
-import Data from "../data/skinConditions.json";
 
 function CardSlider(props) {
   const [flip, setFlip] = useState(true);
@@ -11,6 +10,7 @@ function CardSlider(props) {
   const num2 = props.dataNum[2];
   const num3 = props.dataNum[3];
   const num4 = props.dataNum[4];
+  let Data = props.language;
 
   return (
     <>

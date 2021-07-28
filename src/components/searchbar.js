@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import JSONDATA from "../data/skinConditions.json";
 import { Link } from "react-router-dom";
 
-function Searchbar() {
+function Searchbar(props) {
   const [searchTerm, setSearchTerm] = useState("");
+  let JSONDATA = props.language;
 
   return (
     <div className="container">
