@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 function DailySkinCond(props) {
   let data = props.language;
+  let genData = props.genLanguage;
   let num = Math.trunc(Math.random() * 14);
 
   function handleClick() {
@@ -12,7 +13,7 @@ function DailySkinCond(props) {
   return (
     <>
       <div className="title" style={{ marginBottom: "0" }}>
-        Random Skin Condition
+        {genData[0].random_skin_condition}
       </div>
       <div
         style={{

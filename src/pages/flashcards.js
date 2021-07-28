@@ -22,9 +22,9 @@ function Flashcards(props) {
 
   return (
     <>
-      <Navbar page="1" />
+      <Navbar page="1" genLanguage={props.genLanguage} />
       <div>
-        <Sidebutton onToggleMenu={toggleMenu} />
+        <Sidebutton onToggleMenu={toggleMenu} genLanguage={props.genLanguage} />
       </div>
 
       <div className="ui attached pushable" style={{ height: "730px" }}>

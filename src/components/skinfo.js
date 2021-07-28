@@ -9,7 +9,7 @@ export class Skinfo extends React.Component {
   render() {
     return (
       <>
-        <Navbar page="2" />
+        <Navbar page="2" genLanguage={this.props.genLanguage} />
 
         {/*all of this is just a placeholder */}
         <div>

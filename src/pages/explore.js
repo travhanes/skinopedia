@@ -9,10 +9,14 @@ export class Explore extends React.Component {
   render() {
     return (
       <>
-        <Navbar page="2" />
+        <Navbar page="2" genLanguage={this.props.genLanguage} />
         <div className="explore-box">
-        <div className="skindex"><ExploreSearchbar/></div>
-        <div><SkinfoPopup /></div>
+          <div className="skindex">
+            <ExploreSearchbar />
+          </div>
+          <div>
+            <SkinfoPopup />
+          </div>
         </div>
         <Footer />
       </>
