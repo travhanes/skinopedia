@@ -1,0 +1,15 @@
+.condition-popup{
+    border-style: solid;
+    background-color: white;
+    padding-bottom: 510px;
+}
+ .condition-title{
+    text-align: center;
+}
+
+.info{
+    text-align: left;
+    padding-right: 50%;
+    padding-left: 15px;
+    padding-top: 30px;
+} 

@@ -7,7 +7,7 @@ function ExploreSearchbar() {
   //let JSONDATA = props.language;
 
   return (
-    <div className="container">
+    <div className="search-container">
       
       <div
         className="left-sideline"
