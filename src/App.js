@@ -4,7 +4,7 @@ import { Explore } from "./pages/explore";
 import Flashcards from "./pages/flashcards";
 import Homepage from "./pages/homepage";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Eczema } from "./pages/eczema";
+import { Skinfo } from "./components/skinfo";
 import NotFound from "./pages/notFound";
 import Header from "./components/header";
 import "./index.css";
@@ -63,8 +63,8 @@ function App() {
             <Route path="/flashcards">
               <Flashcards language={language} />
             </Route>
-            <Route path="/eczema">
-              <Eczema />
+            <Route path="/skinfo">
+              <Skinfo />
             </Route>
             <Route path="*">
               <NotFound language={language} />
