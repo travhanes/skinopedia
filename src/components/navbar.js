@@ -1,16 +1,18 @@
 // import { render } from "@testing-library/react";
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-export default class Navbar extends React.Component {
-  componentDidMount() {
+function Navbar(props) {
+  let genData = props.genLanguage;
+
+  useEffect(() => {
     const items = document.querySelectorAll(".item");
 
     for (let i = 0; i < items.length; i++) {
       items[i].classList.remove("active");
     }
 
-    switch (this.props.page) {
+    switch (props.page) {
       case "0":
         document.querySelector(".home").classList.add("active");
         break;
@@ -30,27 +32,27 @@ export default class Navbar extends React.Component {
         document.querySelector(".home").classList.add("active");
         break;
     }
-  }
+  }, []);
 
-  render() {
-    return (
-      <div className="ui five item menu" style={{ margin: "0" }}>
-        <Link className="home item active" to="/">
-          Homepage
-        </Link>
-        <Link className="flash item" to="/flashcards">
-          Flashcards
-        </Link>
-        <Link className="exp item" to="/explore">
-          Explore
-        </Link>
-        <Link className="about item" to="/about">
-          About
-        </Link>
-        <Link className="cont item" to="/contribute">
-          Contribute
-        </Link>
-      </div>
-    );
-  }
+  return (
+    <div className="ui five item menu" style={{ margin: "0" }}>
+      <Link className="home item active" to="/">
+        {genData[0].navbar_button_1}
+      </Link>
+      <Link className="flash item" to="/flashcards">
+        {genData[0].navbar_button_2}
+      </Link>
+      <Link className="exp item" to="/explore">
+        {genData[0].navbar_button_3}
+      </Link>
+      <Link className="about item" to="/about">
+        {genData[0].navbar_button_4}
+      </Link>
+      <Link className="cont item" to="/contribute">
+        {genData[0].navbar_button_5}
+      </Link>
+    </div>
+  );
 }
+
+export default Navbar;

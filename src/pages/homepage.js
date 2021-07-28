@@ -8,7 +8,7 @@ import DailySkinCond from "../components/dailySkinCond";
 function Homepage(props) {
   return (
     <>
-      <Navbar page="0" />
+      <Navbar page="0" genLanguage={props.genLanguage} />
 
       <div
         className="homepage"
@@ -21,8 +21,14 @@ function Homepage(props) {
         }}
       >
         <Stack tokens={{ childrenGap: 40 }}>
-          <FilterSearch language={props.language} />
-          <DailySkinCond language={props.language} />
+          <FilterSearch
+            language={props.language}
+            genLanguage={props.genLanguage}
+          />
+          <DailySkinCond
+            language={props.language}
+            genLanguage={props.genLanguage}
+          />
         </Stack>
       </div>
 

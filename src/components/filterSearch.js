@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 function FilterSearch(props) {
   const [searchTerm, setSearchTerm] = useState("");
   let JSONDATA = props.language;
+  let genData = props.genLanguage;
 
   return (
     <div className="container">
@@ -12,7 +13,7 @@ function FilterSearch(props) {
           <input
             className="prompt"
             type="text"
-            placeholder="Filter skin conditions..."
+            placeholder={genData[0].searchbar_placeholder}
             style={{ width: "600px", height: "60px", fontSize: "20px" }}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
@@ -53,6 +54,7 @@ function FilterSearch(props) {
                     margin: "0",
                     padding: "10px",
                   }}
+                  genLanguage={props.genLanguage}
                 >
                   {val.name}
                 </Link>
