@@ -1,6 +1,7 @@
 [
  {
-   "Disease": "Eczema"
+   "Disease": "Eczema",
+   "Link": "/skinfo"
  },
  {
    "Disease": "Kawasaki Disease"

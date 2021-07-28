@@ -2,22 +2,18 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import "../explore.css";
-import FilterSearch from "../components/filterSearch";
+import ExploreSearchbar from "../components/exploreSearch";
+import SkinfoPopup from "../components/skinfo_popup";
 
 export class Explore extends React.Component {
   render() {
     return (
       <>
         <Navbar page="2" />
-
-        <div>
-          <h1 className="page-title">SKIN-dex</h1>
+        <div className="explore-box">
+        <div className="skindex"><ExploreSearchbar/></div>
+        <div><SkinfoPopup /></div>
         </div>
-        <div>
-          <FilterSearch />
-        </div>
-
-        {/* Footer */}
         <Footer />
       </>
     );

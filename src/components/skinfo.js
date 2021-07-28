@@ -1,11 +1,11 @@
 import React from "react";
-import Footer from "../components/footer";
+import Footer from "./footer";
 import "../explore.css";
-import Navbar from "../components/navbar";
+import Navbar from "./navbar";
 //import from skinconditions.json
 
 // ConditionDetails
-export class Eczema extends React.Component {
+export class Skinfo extends React.Component {
   render() {
     return (
       <>
@@ -13,7 +13,7 @@ export class Eczema extends React.Component {
 
         {/*all of this is just a placeholder */}
         <div>
-          <h1 className="page-title">Eczema</h1>
+          <h1 className="page-title">SKIN-fo</h1>
           <h3> What is Eczema? </h3>
         </div>
         <div className="media">
@@ -39,4 +39,4 @@ export class Eczema extends React.Component {
   }
 }
 
-export default Eczema;
+export default Skinfo;

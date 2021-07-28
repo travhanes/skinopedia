@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
-import Searchbar from "../components/searchbar";
+import FilterSearch from "../components/filterSearch";
 import { Stack } from "@fluentui/react";
 import DailySkinCond from "../components/dailySkinCond";
 
@@ -21,7 +21,7 @@ function Homepage(props) {
         }}
       >
         <Stack tokens={{ childrenGap: 40 }}>
-          <Searchbar language={props.language} />
+          <FilterSearch language={props.language} />
           <DailySkinCond language={props.language} />
         </Stack>
       </div>

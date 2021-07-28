@@ -1,0 +1,44 @@
+.page-title{
+    display: flex;
+    width: 100%;
+    height: 90px; 
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    flex: 1;
+    padding-top: 30px;
+    font-size: 50px;
+  }
+
+  .search-bar{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    flex: 1;
+    width:auto;
+    height: 30px;
+    margin: 10px;
+  }
+  
+  .disease-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font: Arial, Helvetica, sans-serif;
+  }
+  
+  .disease-list input {
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    font-size: 20x;
+    padding-left: 10px;
+  }
+  
+  p{
+    padding-top: 10px;
+    margin: 10px;
+    font-size: 20px;
+  }
