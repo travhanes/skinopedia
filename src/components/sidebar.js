@@ -21,27 +21,29 @@ function Sidebar(props) {
         <ul>
           <li
             className="item link"
-            onClick={() => props.onChooseDeck([3, 3, 0, 4, 4], "3 3 0 4 4")}
+            onClick={() => props.onChooseDeck([3, 9, 12, 4, 6], "3 9 12 4 6")}
           >
-            3 3 0 4 4
+            3 9 12 4 6
           </li>
           <li
             className="item link"
-            onClick={() => props.onChooseDeck([4, 3, 0, 3, 4], "4 3 0 3 4")}
+            onClick={() => props.onChooseDeck([5, 1, 2, 6, 7], "5 1 2 6 7")}
           >
-            4 3 0 3 4
+            5 1 2 6 7
           </li>
           <li
             className="item link"
-            onClick={() => props.onChooseDeck([4, 4, 0, 3, 3], "4 4 0 3 3")}
+            onClick={() =>
+              props.onChooseDeck([12, 11, 9, 8, 10], "12 11 9 8 10")
+            }
           >
-            4 4 0 3 3
+            12 11 9 8 10
           </li>
           <li
             className="item link"
-            onClick={() => props.onChooseDeck([3, 4, 3, 4, 0], "3 4 3 4 0")}
+            onClick={() => props.onChooseDeck([13, 4, 3, 2, 0], "13 4 3 2 0")}
           >
-            3 4 3 4 0
+            13 4 3 2 0
           </li>
         </ul>
       </div>
