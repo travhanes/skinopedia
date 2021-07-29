@@ -5,7 +5,8 @@
 		"recognised": "The ability to detect cyanosis on visual inspection depends on dermal thickness, cutaneous pigmentation, and the state of the cutaneous capillaries",
 		"treatment": "surgery",
 		"picture_1": "",
-		"picture_2": ""
+		"picture_2": "",
+    "reference":"MUKWENDE, M. (n.d.). Mind the gap. Black &amp; brown skin. https://www.blackandbrownskin.co.uk/mindthegap\\n\\n hello"
 	},
 	{
 		"name": "Clubbing",
@@ -120,3 +121,8 @@
 		"picture_2": ""
 	}
 ]
+
+
+let finalJson=JSON.parse(json);
+  
+console.log(finalJson.companyInfo)
